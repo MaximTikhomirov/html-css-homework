@@ -1,0 +1,51 @@
+body {
+    background-color: seagreen; /* Цвет фона страницы */
+    font-family: 'Arial', sans-serif; /* Шрифт текста */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center; /* Центрирование заголовка */
+    color: #333;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 400px; /* Ширина изображения */
+    border: 5px solid #333; /* Рамка вокруг изображения */
+    border-radius: 10px; /* Закругленные углы */
+}
+
+p {
+    text-align: center;
+    color: #555;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+ul {
+    list-style-type: square; /* Маркеры списка */
+    padding-left: 40px; /* Внутренний отступ списка */
+    margin: 20px auto;
+    width: 50%; /* Ширина списка */
+}
+
+li {
+    margin: 10px 0; /* Внешний отступ элементов списка */
+    color: #444;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    color: #1a73e8;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+}

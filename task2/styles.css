@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: aqua;
+}
+
+/* Шапка */
+header {
+    background-color: blueviolet; /* Цвет фона шапки */
+    color: white; /* Цвет текста */
+    text-align: center; /* Выравнивание текста по центру */
+    padding: 20px 0; /* Отступы внутри шапки */
+}
+
+/* Основной блок */
+main {
+    display: flex; /* Используем flexbox */
+    justify-content: space-between; /* Распределяем элементы по ширине */
+    align-items: center; /* Выравниваем элементы по центру по вертикали */
+    padding: 20px; /* Отступы внутри основного блока */
+}
+
+/* Текстовый раздел */
+.text-section {
+    flex: 1; /* Занимает доступное пространство */
+    margin-right: 20px; /* Отступ справа */
+    font-size: 20px;
+}
+
+/* Изображение */
+.image-section img {
+    width: 300px; /* Фиксированная ширина изображения */
+    height: 200px; /* Фиксированная высота изображения */
+    border-radius: 10px; /* Закругленные углы */
+}
+
+/* Подвал */
+footer {
+    background-color: #333; /* Цвет фона подвала */
+    color: white; /* Цвет текста */
+    text-align: center; /* Выравнивание текста по центру */
+    padding: 10px 0; /* Отступы внутри подвала */
+    font-size: 14px; /* Мелкий шрифт */
+    margin-top: 20px; /* Отступ сверху */
+}
